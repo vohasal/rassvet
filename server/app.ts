@@ -246,6 +246,10 @@ export function createApp(opts: Options) {
       next();
     },
   );
+  app.get("/api/health", (_req, res) => {
+    db.prepare("SELECT 1").get();
+    res.json({ ok: true });
+  });
   app.get("/api/catalog", (_req, res) =>
     res.json({
       products: products(),

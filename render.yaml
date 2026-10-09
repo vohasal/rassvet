@@ -1,0 +1,31 @@
+# One paid service: frontend + API + Telegram polling, with persistent SQLite.
+# Review the service and disk price in Render before creating the Blueprint.
+services:
+  - type: web
+    name: rassvet
+    runtime: node
+    plan: starter
+    region: frankfurt
+    numInstances: 1
+    buildCommand: npm ci --include=dev && npm run build
+    startCommand: npm start
+    healthCheckPath: /api/health
+    disk:
+      name: rassvet-data
+      mountPath: /var/data
+      sizeGB: 1
+    envVars:
+      - key: NODE_VERSION
+        value: "24.21.0"
+      - key: NODE_ENV
+        value: production
+      - key: HOST
+        value: 0.0.0.0
+      - key: DATABASE_PATH
+        value: /var/data/rassvet.sqlite
+      - key: DEMO_MODE
+        value: "true"
+      - key: ADMIN_PASSWORD
+        generateValue: true
+      - key: TELEGRAM_BOT_TOKEN
+        sync: false

@@ -40,6 +40,12 @@ test("API: secure order lifecycle, money, availability, idempotency and ownershi
       cookie: response.headers.get("set-cookie")?.split(";")[0] || "",
     };
   };
+  await t.test("hosting health check verifies the database without exposing config", async () => {
+    const response = await fetch(base + "/health");
+    assert.equal(response.status, 200);
+    assert.equal(response.headers.get("cache-control"), "no-store");
+    assert.deepEqual(await response.json(), { ok: true });
+  });
   const guest = await call("/auth/demo", "POST", {});
   const cookie = guest.cookie;
   const admin = await call("/admin/login", "POST", { password: "staff-test" });
