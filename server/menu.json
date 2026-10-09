@@ -1,0 +1,386 @@
+[
+  {
+    "id": "p01",
+    "name": {
+      "ru": "Капучино",
+      "en": "Cappuccino",
+      "uz": "Kapuchino"
+    },
+    "category": "coffee",
+    "price": 50000,
+    "image": "/images/p01.jpg",
+    "size": "300 мл",
+    "available": true,
+    "options": true,
+    "featured": true,
+    "source": "https://media.dodostatic.com/image/r:520x520/0194742fa9fe72ec819860cf023a6a52.jpg"
+  },
+  {
+    "id": "p02",
+    "name": {
+      "ru": "Флет Уайт",
+      "en": "Flat white",
+      "uz": "Flet uayt"
+    },
+    "category": "coffee",
+    "price": 50000,
+    "image": "/images/p02.jpg",
+    "size": "200 мл",
+    "available": true,
+    "options": true,
+    "featured": false,
+    "source": "https://media.dodostatic.com/image/r:520x520/0194742dcd03761893c69678b92d308b.jpg"
+  },
+  {
+    "id": "p03",
+    "name": {
+      "ru": "Латте",
+      "en": "Latte",
+      "uz": "Latte"
+    },
+    "category": "coffee",
+    "price": 50000,
+    "image": "/images/p03.jpg",
+    "size": "300 мл",
+    "available": true,
+    "options": true,
+    "featured": false,
+    "source": "https://media.dodostatic.com/image/r:520x520/019600b2159674c5b3f085420afdcbd6.jpg"
+  },
+  {
+    "id": "p04",
+    "name": {
+      "ru": "Айс-Латте",
+      "en": "Iced latte",
+      "uz": "Muzli latte"
+    },
+    "category": "coffee",
+    "price": 50000,
+    "image": "/images/p04.jpg",
+    "size": "350 мл",
+    "available": true,
+    "options": true,
+    "featured": false,
+    "source": "https://media.dodostatic.com/image/r:520x520/11ef481aa1dbb360839b88626a1497b8.jpg"
+  },
+  {
+    "id": "p05",
+    "name": {
+      "ru": "Эспрессо",
+      "en": "Espresso",
+      "uz": "Espresso"
+    },
+    "category": "coffee",
+    "price": 35000,
+    "image": "/images/p05.jpg",
+    "size": "40 мл",
+    "available": true,
+    "options": false,
+    "featured": false,
+    "source": "https://media.dodostatic.com/image/r:520x520/11ef4819a93c80fea72a93368d648732.jpg"
+  },
+  {
+    "id": "p06",
+    "name": {
+      "ru": "Фильтр кофе",
+      "en": "Filter coffee",
+      "uz": "Filtr qahva"
+    },
+    "category": "coffee",
+    "price": 45000,
+    "image": "/images/p06.jpg",
+    "size": "250 мл",
+    "available": true,
+    "options": false,
+    "featured": false,
+    "source": "https://media.dodostatic.com/image/r:520x520/019f7e5b7a9a762e802bb748856ed015.jpg"
+  },
+  {
+    "id": "p07",
+    "name": {
+      "ru": "Раф ванильный",
+      "en": "Vanilla raf",
+      "uz": "Vanilli raf"
+    },
+    "category": "coffee",
+    "price": 50000,
+    "image": "/images/p07.jpg",
+    "size": "300 мл",
+    "available": true,
+    "options": true,
+    "featured": false,
+    "source": "https://media.dodostatic.com/image/r:520x520/11ef4b39c04fcc34bbf173eba214763f.jpg"
+  },
+  {
+    "id": "p08",
+    "name": {
+      "ru": "Цитрусовый раф",
+      "en": "Citrus raf",
+      "uz": "Sitrusli raf"
+    },
+    "category": "coffee",
+    "price": 50000,
+    "image": "/images/p08.jpg",
+    "size": "300 мл",
+    "available": true,
+    "options": true,
+    "featured": false,
+    "source": "https://media.dodostatic.com/image/r:520x520/019600ad2d1f75fabfe4d7d8e1b7db50.jpg"
+  },
+  {
+    "id": "p09",
+    "name": {
+      "ru": "Булочка с кардамоном и корицей",
+      "en": "Cardamom & cinnamon bun",
+      "uz": "Kardamon va dolchinli bulochka"
+    },
+    "category": "bakery",
+    "price": 35000,
+    "image": "/images/p09.jpg",
+    "size": "1 шт.",
+    "available": true,
+    "options": false,
+    "featured": true,
+    "source": "https://media.dodostatic.com/image/r:520x520/019474257f1178a19a60140b0746c365.jpg"
+  },
+  {
+    "id": "p10",
+    "name": {
+      "ru": "Булочка с корицей",
+      "en": "Cinnamon bun",
+      "uz": "Dolchinli bulochka"
+    },
+    "category": "bakery",
+    "price": 25000,
+    "image": "/images/p10.jpg",
+    "size": "1 шт.",
+    "available": true,
+    "options": false,
+    "featured": false,
+    "source": "https://media.dodostatic.com/image/r:520x520/0194bcff6f5a77e1bd567552c28e4a68.jpg"
+  },
+  {
+    "id": "p11",
+    "name": {
+      "ru": "Банана брэд",
+      "en": "Banana bread",
+      "uz": "Bananli non"
+    },
+    "category": "bakery",
+    "price": 45000,
+    "image": "/images/p11.jpg",
+    "size": "1 шт.",
+    "available": true,
+    "options": false,
+    "featured": false,
+    "source": "https://media.dodostatic.com/image/r:520x520/11ef4b3a25fc21e7bf034c164432364d.jpg"
+  },
+  {
+    "id": "p12",
+    "name": {
+      "ru": "Паштель де Ната",
+      "en": "Pastel de nata",
+      "uz": "Pashtel de nata"
+    },
+    "category": "bakery",
+    "price": 35000,
+    "image": "/images/p12.jpg",
+    "size": "1 шт.",
+    "available": true,
+    "options": false,
+    "featured": false,
+    "source": "https://media.dodostatic.com/image/r:520x520/0195d3f1bf77758e8e74661110f00227.jpg"
+  },
+  {
+    "id": "p13",
+    "name": {
+      "ru": "Сырники с сезонным соусом и сметаной",
+      "en": "Syrniki with seasonal sauce",
+      "uz": "Mavsumiy sousli sirniklar"
+    },
+    "category": "breakfast",
+    "price": 80000,
+    "image": "/images/p13.jpg",
+    "size": "1 порция",
+    "available": true,
+    "options": false,
+    "featured": true,
+    "source": "https://media.dodostatic.com/image/r:520x520/11ef5197dd4a722e8856c36346de8a16.jpg"
+  },
+  {
+    "id": "p14",
+    "name": {
+      "ru": "Красная шакшука с фетой",
+      "en": "Red shakshuka with feta",
+      "uz": "Fetali qizil shakshuka"
+    },
+    "category": "breakfast",
+    "price": 80000,
+    "image": "/images/p14.jpg",
+    "size": "1 порция",
+    "available": true,
+    "options": false,
+    "featured": false,
+    "source": "https://media.dodostatic.com/image/r:520x520/0194bcfd4ca275598db8dedda04605f2.jpg"
+  },
+  {
+    "id": "p15",
+    "name": {
+      "ru": "Овсяная каша с фруктами / гранолой",
+      "en": "Oatmeal with fruit / granola",
+      "uz": "Meva / granolali suli bo‘tqasi"
+    },
+    "category": "breakfast",
+    "price": 55000,
+    "image": "/images/p15.jpg",
+    "size": "1 порция",
+    "available": true,
+    "options": false,
+    "featured": false,
+    "source": "https://media.dodostatic.com/image/r:520x520/019f4a8d223173148f1c3bc50ef96a7d.jpg"
+  },
+  {
+    "id": "p16",
+    "name": {
+      "ru": "Круассан с маслом и сезонным джемом",
+      "en": "Croissant with butter & jam",
+      "uz": "Sariyog‘ va jemli kruassan"
+    },
+    "category": "breakfast",
+    "price": 60000,
+    "image": "/images/p16.jpg",
+    "size": "1 порция",
+    "available": true,
+    "options": false,
+    "featured": false,
+    "source": "https://media.dodostatic.com/image/r:520x520/0194740f089c735590a8fc0deaf96144.jpg"
+  },
+  {
+    "id": "p17",
+    "name": {
+      "ru": "Боул с курицей",
+      "en": "Chicken bowl",
+      "uz": "Tovuqli boul"
+    },
+    "category": "bowls",
+    "price": 120000,
+    "image": "/images/p17.jpg",
+    "size": "1 порция",
+    "available": true,
+    "options": false,
+    "featured": true,
+    "source": "https://media.dodostatic.com/image/r:520x520/019ceaf9cf0c7908bd222e7b86d2e995.jpg"
+  },
+  {
+    "id": "p18",
+    "name": {
+      "ru": "Боул с тофу",
+      "en": "Tofu bowl",
+      "uz": "Tofuli boul"
+    },
+    "category": "bowls",
+    "price": 120000,
+    "image": "/images/p18.jpg",
+    "size": "1 порция",
+    "available": true,
+    "options": false,
+    "featured": false,
+    "source": "https://media.dodostatic.com/image/r:520x520/019ceafa53cb70ae8886552a893982fd.jpg"
+  },
+  {
+    "id": "p19",
+    "name": {
+      "ru": "Боул с креветками",
+      "en": "Shrimp bowl",
+      "uz": "Krevetkali boul"
+    },
+    "category": "bowls",
+    "price": 185000,
+    "image": "/images/p19.jpg",
+    "size": "1 порция",
+    "available": true,
+    "options": false,
+    "featured": false,
+    "source": "https://media.dodostatic.com/image/r:520x520/019f93027d7878909a83656f6d966f89.jpg"
+  },
+  {
+    "id": "p20",
+    "name": {
+      "ru": "Фокачча с песто и моцареллой",
+      "en": "Pesto & mozzarella focaccia",
+      "uz": "Pesto va motsarellali fokachcha"
+    },
+    "category": "sandwiches",
+    "price": 75000,
+    "image": "/images/p20.jpg",
+    "size": "1 порция",
+    "available": true,
+    "options": false,
+    "featured": false,
+    "source": "https://media.dodostatic.com/image/r:520x520/019a7d23054b790594e71af26e7744ee.jpg"
+  },
+  {
+    "id": "p21",
+    "name": {
+      "ru": "Фокачча с индейкой",
+      "en": "Turkey focaccia",
+      "uz": "Kurka go‘shtli fokachcha"
+    },
+    "category": "sandwiches",
+    "price": 95000,
+    "image": "/images/p21.jpg",
+    "size": "1 порция",
+    "available": true,
+    "options": false,
+    "featured": false,
+    "source": "https://media.dodostatic.com/image/r:520x520/019a7d21b0e870ea9dd2fa93e96e5368.jpg"
+  },
+  {
+    "id": "p22",
+    "name": {
+      "ru": "айс матча латте",
+      "en": "Iced matcha latte",
+      "uz": "Muzli matcha latte"
+    },
+    "category": "drinks",
+    "price": 65000,
+    "image": "/images/p22.jpg",
+    "size": "300 мл",
+    "available": true,
+    "options": true,
+    "featured": false,
+    "source": "https://media.dodostatic.com/image/r:520x520/019c6f69a0ad712eb769411cfe027a01.jpg"
+  },
+  {
+    "id": "p23",
+    "name": {
+      "ru": "Лимонад цитрус",
+      "en": "Citrus lemonade",
+      "uz": "Sitrusli limonad"
+    },
+    "category": "drinks",
+    "price": 45000,
+    "image": "/images/p23.jpg",
+    "size": "350 мл",
+    "available": true,
+    "options": false,
+    "featured": false,
+    "source": "https://media.dodostatic.com/image/r:520x520/0195ff4aa0e2783ab0c41fbd8b1c2c89.jpg"
+  },
+  {
+    "id": "p24",
+    "name": {
+      "ru": "Чай облепиха и имбирь",
+      "en": "Sea buckthorn & ginger tea",
+      "uz": "Chakanda va zanjabilli choy"
+    },
+    "category": "drinks",
+    "price": 50000,
+    "image": "/images/p24.jpg",
+    "size": "500 мл",
+    "available": true,
+    "options": false,
+    "featured": false,
+    "source": "https://media.dodostatic.com/image/r:520x520/019c8fdbecba736aa0b001965a7b42d6.jpg"
+  }
+]
