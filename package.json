@@ -7,6 +7,7 @@
     "dev": "concurrently -k -n api,web \"tsx watch server/index.ts\" \"vite --host 127.0.0.1\"",
     "build": "tsc --noEmit && vite build",
     "start": "tsx server/index.ts",
+    "demo:tunnel": "npm run build && node scripts/tunnel.mjs",
     "test": "node --import tsx --test tests/*.test.ts",
     "test:e2e": "playwright test"
   },
